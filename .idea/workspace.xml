@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c26776aa-535f-4cc9-8489-a3bdd1edf62d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HW4/api/controllers/movies.js" afterPath="$PROJECT_DIR$/HW4/api/controllers/movies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HW4/api/swagger/swagger.yaml" afterPath="$PROJECT_DIR$/HW4/api/swagger/swagger.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HW4/app.js" afterPath="$PROJECT_DIR$/HW4/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HW4/package.json" afterPath="$PROJECT_DIR$/HW4/package.json" />
-    </list>
+    <list default="true" id="c26776aa-535f-4cc9-8489-a3bdd1edf62d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -129,20 +123,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HW4_WebAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HW4_WebAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HW4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -236,12 +216,12 @@
       <updated>1490558530333</updated>
       <workItem from="1490558531713" duration="16999000" />
       <workItem from="1490591758568" duration="17273000" />
-      <workItem from="1490735236379" duration="76000" />
+      <workItem from="1490735236379" duration="304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34348000" />
+    <option name="totallyTimeSpent" value="34576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -254,7 +234,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="2" width="1440" height="896" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2149401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
