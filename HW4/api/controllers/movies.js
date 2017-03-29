@@ -30,7 +30,7 @@ module.exports = {
 function index (req,res){
 
     Usergrid.GET('movies', function(err, response, movie) {
-
+        //Getting all movies from apige BaaS
         if(err){
             res.json({error: err});
         }
@@ -45,7 +45,7 @@ function index (req,res){
 function create (req,res){
 
     var movies = req.swagger.params.movie.value.movie;
-    _.assign(movies,{type: 'movie'});
+    _.assign(movies,{type: 'movie'}); //Movies require a type field.
 
     if(_.isUndefined(movies.actors) || _.isUndefined(movies.title) || _.isUndefined(movies.year)
         || _.isUndefined(movies.genre)) {
@@ -72,13 +72,12 @@ function create (req,res){
                 });
             }
         })
-
 }
 function show(req,res){
 
     var uuid = req.swagger.params.movieId.value;
     Usergrid.GET('movies',uuid, function(error, usergridResponse) {
-        // if successful, entity will now be deleted
+        // if successful, entity be correct movie
         if (error){
             res.json({error: error});
         }
@@ -88,8 +87,7 @@ function show(req,res){
     })
 }
 function update(req,res){
-
-
+    
     var uuid = req.swagger.params.movieId.value;
 
     Usergrid.GET('movies', uuid, function(error, usergridResponse, movie) {
@@ -112,9 +110,7 @@ function update(req,res){
                     movie: response
                 }).end();
             });
-
         });
-
     })
 }
 function destroy(req,res){
