@@ -1,1 +1,2 @@
-Place your controllers in this directory.
+## USER.JS
+* Controller for HTTP requests to Apigee's BaaS
